@@ -10,8 +10,12 @@ body {
   color: #fff;
   height: 100vh;
   overflow: hidden;
-  background-image: url(../assets/images/main_bg_pc.jpeg);
+  background-image: url(../assets/images/main_bg_pc.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+html {
+  font-size: 62.5%;
+  background-color: rgb(33 37 42);
 }
