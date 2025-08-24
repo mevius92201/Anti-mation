@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from "react";
 
-const FillDuration = 2000;
+const FillDuration = 5000;
 export default function DrawControl({
   onProgressChange = () => {},
+  onHoldChange = () => {},
   disabled = false,
 }) {
   const [progress, setProgress] = useState(0); //最多100，最小0
@@ -29,6 +30,7 @@ export default function DrawControl({
   };
 
   const onPointerDown = (e) => {
+    console.log("PointerDown!");
     if (disabled) return; // 如果禁用，則不處理事件
     if (e.pointerType === `mouse` && e.button !== 0) return; // 左鍵按下
     e.preventDefault?.();
@@ -38,6 +40,7 @@ export default function DrawControl({
     onProgressChange(0);
     setHoldButton(true);
     holdButtonRef.current = true;
+    onHoldChange(true);
     pointerIdRef.current = e.pointerId;
     e.currentTarget.setPointerCapture?.(e.pointerId);
 
@@ -57,6 +60,7 @@ export default function DrawControl({
     pointerIdRef.current = null;
     setHoldButton(false);
     holdButtonRef.current = false;
+    onHoldChange(false);
     if (rafRef.current) {
       cancelAnimationFrame(rafRef.current);
       rafRef.current = 0;
@@ -74,7 +78,10 @@ export default function DrawControl({
     <div className="controls" aria-label="抽籤控制區">
       <div className="progress" aria-live="off">
         <div className="progress__track">
-          <div className="progress__fill" style={{ width: `${progress}%` }} />
+          <div
+            className="progress__fill"
+            style={{ width: `${progress}%` }}
+          ></div>
         </div>
         <span className="progress__label">{progress}%</span>
       </div>
