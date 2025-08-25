@@ -1,6 +1,8 @@
 import OmikujiBox from "./component/OmikujiBox";
 import DrawControl from "./component/DrawControl";
 import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
+import ResultScreen from "./component/ResultScreen";
 
 function App() {
   const [chargeProgress, setChargeProgress] = useState(0);
@@ -31,7 +33,7 @@ function App() {
               isShaking={isCharging}
               phase={phase}
               onDraw={handleDraw}
-              onShowResult={handleShowResult}
+              onShowResult={handleDrawEnd}
             />
           )}
           {phase === "result" && (
