@@ -80,6 +80,7 @@ body {
 }
 
 .omikuji-box {
+  position: relative;
   width: min(80vw, var(--box-max-w));
   margin: 0 auto;
   filter: drop-shadow(0 0.8rem 1.8rem rgba(0, 0, 0, 0.45));
@@ -242,7 +243,21 @@ body {
   user-select: none;
   pointer-events: none;
 }
-
+.omikuji-stick {
+  position: absolute;
+  inset: 0;
+  color: #0b1020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  pointer-events: none;
+}
+.yokai-img {
+  width: 200px;
+  margin: 1rem auto;
+}
 .controls {
   position: fixed;
   left: 0;

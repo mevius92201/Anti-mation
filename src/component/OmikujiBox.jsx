@@ -14,9 +14,12 @@ export default function OmikujiBox({
       const timer = setTimeout(() => {
         onShowResult();
       }, 2000);
+      console.log(phase);
       return () => clearTimeout(timer);
     }
   }, [phase, onShowResult]);
+
+  console.log(phase);
   return (
     <div className="omikuji-box" aria-label="籤筒">
       <img

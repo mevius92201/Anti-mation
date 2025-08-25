@@ -4,6 +4,7 @@ const FillDuration = 5000;
 export default function DrawControl({
   onProgressChange = () => {},
   onHoldChange = () => {},
+  onRelease = () => {},
   disabled = false,
 }) {
   const [progress, setProgress] = useState(0); //最多100，最小0
@@ -65,6 +66,7 @@ export default function DrawControl({
       cancelAnimationFrame(rafRef.current);
       rafRef.current = 0;
     }
+    onRelease();
   };
 
   useEffect(() => {
