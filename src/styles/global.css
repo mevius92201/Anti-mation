@@ -81,6 +81,7 @@ body {
 
 .omikuji-box {
   position: relative;
+  top: 3rem;
   width: min(80vw, var(--box-max-w));
   margin: 0 auto;
   filter: drop-shadow(0 0.8rem 1.8rem rgba(0, 0, 0, 0.45));
@@ -245,7 +246,9 @@ body {
 }
 .omikuji-stick {
   position: absolute;
-  inset: 0;
+  width: 3rem;
+  height: 42rem;
+  top: 4rem;
   color: #0b1020;
   display: flex;
   flex-direction: column;
@@ -253,6 +256,14 @@ body {
   align-items: center;
   user-select: none;
   pointer-events: none;
+}
+.omikuji-stick-container {
+  height: 25rem;
+  width: 100%;
+  position: absolute;
+  left: 18.5rem;
+  top: -11rem;
+  overflow: hidden;
 }
 .yokai-img {
   width: 200px;

@@ -29,15 +29,17 @@ export default function OmikujiBox({
         draggable="false"
       />
       {phase === "drawing" && (
-        <motion.img
-          src={omikujiStick}
-          alt="御籤籤筒"
-          className="omikuji-stick"
-          draggable="false"
-          initial={{ y: 80, opacity: 0 }}
-          animate={{ y: -40, opacity: 1 }}
-          transition={{ duration: 0.3, ease: "easeOut" }}
-        />
+        <div className="omikuji-stick-container">
+          <motion.img
+            src={omikujiStick}
+            alt="御籤籤支"
+            className="omikuji-stick"
+            draggable="false"
+            initial={{ y: 80, opacity: 0 }}
+            animate={{ y: -40, opacity: 1 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+          />
+        </div>
       )}
     </div>
   );
