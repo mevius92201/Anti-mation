@@ -3,16 +3,21 @@ import DrawControl from "./component/DrawControl";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import ResultScreen from "./component/ResultScreen";
+import { FORTUNES } from "./data/Fortunes";
 
 function App() {
   const [chargeProgress, setChargeProgress] = useState(0);
   const [isCharging, setIsCharging] = useState(false);
   const [phase, setPhase] = useState("idle"); // idle, drawing, result
+  const [currentFortune, setCurrentFortune] = useState(null);
 
   const handleDraw = () => {
     if (phase === "drawing" || phase === "result") return;
+    const fortune = FORTUNES[Math.floor(Math.random() * FORTUNES.length)];
+    setCurrentFortune(fortune);
     setPhase("drawing");
   };
+
   const handleDrawEnd = () => {
     setPhase("result");
   };
@@ -20,6 +25,7 @@ function App() {
     setPhase("idle");
     setChargeProgress(0);
     setIsCharging(false);
+    setCurrentFortune(null);
   };
 
   return (
@@ -33,11 +39,16 @@ function App() {
               isShaking={isCharging}
               phase={phase}
               onDraw={handleDraw}
+              fortune={currentFortune}
               onShowResult={handleDrawEnd}
             />
           )}
           {phase === "result" && (
-            <ResultScreen key="result" onReset={handleReset} />
+            <ResultScreen
+              key="result"
+              onReset={handleReset}
+              fortune={currentFortune}
+            />
           )}
         </AnimatePresence>
       </div>

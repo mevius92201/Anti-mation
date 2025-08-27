@@ -1,13 +1,27 @@
 import { motion } from "framer-motion";
 import { useEffect } from "react";
 import omikujiBox from "../assets/images/omikuji_box.png";
-import omikujiStick from "../assets/images/omikuji_stick.png";
+import omikujiStickNormal from "../assets/images/omikuji_stick_normal.png";
+import omikujiStickBest from "../assets/images/omikuji_stick_best.png";
+
+function getStickImg(luck) {
+  const normalList = ["小凶", "凶", "大凶"];
+  const bestList = ["大吉", "中吉", "吉", "末吉"];
+  if (normalList.includes(luck)) {
+    return omikujiStickNormal;
+  } else if (bestList.includes(luck)) {
+    return omikujiStickBest;
+  } else {
+    return omikujiStickNormal;
+  }
+}
 export default function OmikujiBox({
   progress,
   isShaking,
   phase,
   onDraw,
   onShowResult,
+  fortune,
 }) {
   useEffect(() => {
     if (phase === "drawing") {
@@ -22,22 +36,32 @@ export default function OmikujiBox({
   console.log(phase);
   return (
     <div className="omikuji-box" aria-label="籤筒">
-      <img
-        src={omikujiBox}
-        alt="御籤籤筒"
-        className="omikuji-img"
-        draggable="false"
-      />
+      {phase === "drawing" ? (
+        <img
+          src={omikujiBox}
+          alt="御籤籤筒"
+          className="omikuji-img"
+          draggable="false"
+          // style={{ boxShadow: "0 0 1.5rem 0.3rem #f0e68c"  }}
+        />
+      ) : (
+        <img
+          src={omikujiBox}
+          alt="御籤籤筒"
+          className="omikuji-img"
+          draggable="false"
+        />
+      )}
       {phase === "drawing" && (
         <div className="omikuji-stick-container">
           <motion.img
-            src={omikujiStick}
+            src={getStickImg(fortune?.luck)}
             alt="御籤籤支"
             className="omikuji-stick"
             draggable="false"
-            initial={{ y: 80, opacity: 0 }}
+            initial={{ y: 80, opacity: 0.7 }}
             animate={{ y: -40, opacity: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
           />
         </div>
       )}
