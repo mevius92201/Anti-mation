@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { FORTUNES } from "../data/Fortunes";
-function ResultScreen({ onReset }) {
-  const fortune = FORTUNES[Math.floor(Math.random() * FORTUNES.length)];
-  console.log(fortune);
+function ResultScreen({ onReset, fortune }) {
+  // const fortune = FORTUNES[Math.floor(Math.random() * FORTUNES.length)];
+  // console.log(fortune);
   return (
     <div className="result-screen-wrapper">
       <div className="result-screen-container">

@@ -9,11 +9,11 @@ function getStickImg(luck) {
   const bestList = ["大吉", "中吉", "吉", "末吉"];
   if (normalList.includes(luck)) {
     return omikujiStickNormal;
-  } else if (bestList.includes(luck)) {
-    return omikujiStickBest;
-  } else {
-    return omikujiStickNormal;
   }
+  if (bestList.includes(luck)) {
+    return omikujiStickBest;
+  }
+  return omikujiStickNormal;
 }
 export default function OmikujiBox({
   progress,

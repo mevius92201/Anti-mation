@@ -284,7 +284,7 @@ body {
 }
 .result-screen-container {
   padding: 2rem;
-  background: aliceblue;
+  background: rgb(255, 255, 255);
   width: 29rem;
   margin-bottom: 2rem;
   height: 71rem;
@@ -334,9 +334,9 @@ body {
   right: 0;
   bottom: 2.4rem;
   margin: 0 auto;
-  max-width: min(92vw, 64rem);
+  max-width: min(73rem);
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 56rem auto;
   gap: var(--controls-gap);
   align-items: center;
   padding: var(--controls-padding);

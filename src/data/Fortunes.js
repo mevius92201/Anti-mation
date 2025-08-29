@@ -20,7 +20,7 @@ export const FORTUNES = [
   {
     id: "kitsune",
     yokai: "狐妖",
-    img: "/src/assets/images/river.png",
+    img: "/src/assets/images/kitsune.png",
     number: "第二",
     luck: "小吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -38,7 +38,7 @@ export const FORTUNES = [
   {
     id: "tengu",
     yokai: "天狗",
-    img: "/src/assets/images/river.png",
+    img: "/src/assets/images/tengu.png",
     number: "第三",
     luck: "中吉",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",

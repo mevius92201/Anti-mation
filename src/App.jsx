@@ -16,6 +16,8 @@ function App() {
     const fortune = FORTUNES[Math.floor(Math.random() * FORTUNES.length)];
     setCurrentFortune(fortune);
     setPhase("drawing");
+    setIsCharging(false);
+    console.log(fortune.luck, fortune.number);
   };
 
   const handleDrawEnd = () => {
