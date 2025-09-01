@@ -6,7 +6,7 @@ import omikujiStickBest from "../assets/images/omikuji_stick_best.png";
 
 function getStickImg(luck) {
   const normalList = ["小凶", "凶", "大凶"];
-  const bestList = ["大吉", "中吉", "吉", "末吉"];
+  const bestList = ["大吉", "中吉", "小吉", "吉", "末吉"];
   if (normalList.includes(luck)) {
     return omikujiStickNormal;
   }
@@ -27,7 +27,7 @@ export default function OmikujiBox({
     if (phase === "drawing") {
       const timer = setTimeout(() => {
         onShowResult();
-      }, 2000);
+      }, 850);
       console.log(phase);
       return () => clearTimeout(timer);
     }

@@ -1,8 +1,16 @@
 import { motion } from "framer-motion";
-import { FORTUNES } from "../data/Fortunes";
+
+const yokaiImgs = import.meta.glob("../assets/images/*.png", {
+  eager: true,
+  import: "default",
+});
+const getYokaiImg = (imgName) => {
+  return yokaiImgs[`../assets/images/${imgName}`];
+};
 function ResultScreen({ onReset, fortune }) {
   // const fortune = FORTUNES[Math.floor(Math.random() * FORTUNES.length)];
   // console.log(fortune);
+  if (!fortune) return null;
   return (
     <div className="result-screen-wrapper">
       <div className="result-screen-container">
@@ -41,7 +49,7 @@ function ResultScreen({ onReset, fortune }) {
             <p className="result-text">方位：{fortune.text.position}</p>
           </div>
           <motion.img
-            src={fortune.img}
+            src={getYokaiImg(fortune.img)}
             alt={fortune.yokai}
             className="yokai-img"
             draggable="false"

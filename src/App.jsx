@@ -21,7 +21,7 @@ function App() {
   };
 
   const handleDrawEnd = () => {
-    setPhase("result");
+    setPhase("drawing");
   };
   const handleReset = () => {
     setPhase("idle");

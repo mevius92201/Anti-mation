@@ -2,7 +2,7 @@ export const FORTUNES = [
   {
     id: "kappa",
     yokai: "河童",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第一",
     luck: "中吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -20,7 +20,7 @@ export const FORTUNES = [
   {
     id: "kitsune",
     yokai: "狐妖",
-    img: "/src/assets/images/kitsune.png",
+    img: "kitsune.png",
     number: "第二",
     luck: "小吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -38,7 +38,7 @@ export const FORTUNES = [
   {
     id: "tengu",
     yokai: "天狗",
-    img: "/src/assets/images/tengu.png",
+    img: "tengu.png",
     number: "第三",
     luck: "中吉",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -56,7 +56,7 @@ export const FORTUNES = [
   {
     id: "oni",
     yokai: "鬼",
-    img: "/src/assets/images/river.png",
+    img: "oni.png",
     number: "第四",
     luck: "凶",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -74,7 +74,7 @@ export const FORTUNES = [
   {
     id: "yuki-onna",
     yokai: "雪女",
-    img: "/src/assets/images/river.png",
+    img: "snow.png",
     number: "第五",
     luck: "小凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -92,7 +92,7 @@ export const FORTUNES = [
   {
     id: "jorogumo",
     yokai: "絡新婦",
-    img: "/src/assets/images/river.png",
+    img: "jorogumo.png",
     number: "第六",
     luck: "中吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -110,7 +110,7 @@ export const FORTUNES = [
   {
     id: "nurikabe",
     yokai: "濡壁",
-    img: "/src/assets/images/river.png",
+    img: "nurikabe.png",
     number: "第七",
     luck: "小吉",
     poem: "松濤和月白\n石徑帶苔鮮\n但積微光火\n終能照深淵",
@@ -128,7 +128,7 @@ export const FORTUNES = [
   {
     id: "karakasa",
     yokai: "唐傘妖",
-    img: "/src/assets/images/river.png",
+    img: "umbrella.png",
     number: "第八",
     luck: "凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -146,7 +146,7 @@ export const FORTUNES = [
   {
     id: "noppera-bo",
     yokai: "無臉男",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九",
     luck: "吉",
     poem: "春風入小院\n花影度簷前\n心靜隨雲遠\n願成在眼邊",
@@ -164,7 +164,7 @@ export const FORTUNES = [
   {
     id: "hitotsume-kozou",
     yokai: "一目小僧",
-    img: "/src/assets/images/river.png",
+    img: "hitotsume-kozou.png",
     number: "第十",
     luck: "末吉",
     poem: "蟬聲穿午熱\n荷氣滿池蓮\n道在平常處\n步穩自超然",
@@ -182,7 +182,7 @@ export const FORTUNES = [
   {
     id: "nekomata",
     yokai: "貓又",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十一",
     luck: "大吉",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -200,7 +200,7 @@ export const FORTUNES = [
   {
     id: "bakeneko",
     yokai: "化貓",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十二",
     luck: "大凶",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -218,7 +218,7 @@ export const FORTUNES = [
   {
     id: "inugami",
     yokai: "犬神",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十三",
     luck: "小凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -236,7 +236,7 @@ export const FORTUNES = [
   {
     id: "nurarihyon",
     yokai: "滑頭鬼",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十四",
     luck: "大吉",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -254,7 +254,7 @@ export const FORTUNES = [
   {
     id: "akaname",
     yokai: "垢嘗",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十五",
     luck: "吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -272,7 +272,7 @@ export const FORTUNES = [
   {
     id: "azukiarai",
     yokai: "洗豆婆",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十六",
     luck: "凶",
     poem: "想當斷捨離\n快遞日三件\n收納買一堆\n房間更擁擠",
@@ -290,7 +290,7 @@ export const FORTUNES = [
   {
     id: "kamaitachi",
     yokai: "鎌鼬",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十七",
     luck: "大凶",
     poem: "想當斷捨離\n快遞日三件\n收納買一堆\n房間更擁擠",
@@ -308,7 +308,7 @@ export const FORTUNES = [
   {
     id: "futakuchi-onna",
     yokai: "二口女",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十八",
     luck: "小凶",
     poem: "告白編千字\n發送只一點\n她回哈哈哈\n到底幾個點",
@@ -326,7 +326,7 @@ export const FORTUNES = [
   {
     id: "ubume",
     yokai: "產女",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第十九",
     luck: "凶",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -344,7 +344,7 @@ export const FORTUNES = [
   {
     id: "zashiki-warashi",
     yokai: "座敷童子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十",
     luck: "大吉",
     poem: "健身辦年卡\n三天就失聯\n教練發愛心\n你回已上仙",
@@ -362,7 +362,7 @@ export const FORTUNES = [
   {
     id: "mokumokuren",
     yokai: "目目連",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十一",
     luck: "凶",
     poem: "告白編千字\n發送只一點\n她回哈哈哈\n到底幾個點",
@@ -380,7 +380,7 @@ export const FORTUNES = [
   {
     id: "gashadokuro",
     yokai: "餓者骷髏",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十二",
     luck: "小吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -398,7 +398,7 @@ export const FORTUNES = [
   {
     id: "yurei",
     yokai: "幽靈",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十三",
     luck: "小吉",
     poem: "健身辦年卡\n三天就失聯\n教練發愛心\n你回已上仙",
@@ -416,7 +416,7 @@ export const FORTUNES = [
   {
     id: "chochin-obake",
     yokai: "提燈怪",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十四",
     luck: "小凶",
     poem: "手機剩一趴\n充電線哪邊\n外賣剛到門\n偏偏忘帶錢",
@@ -434,7 +434,7 @@ export const FORTUNES = [
   {
     id: "yamauba",
     yokai: "山姥",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十五",
     luck: "大吉",
     poem: "手機剩一趴\n充電線哪邊\n外賣剛到門\n偏偏忘帶錢",
@@ -452,7 +452,7 @@ export const FORTUNES = [
   {
     id: "ushi-oni",
     yokai: "牛鬼",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十六",
     luck: "末吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -470,7 +470,7 @@ export const FORTUNES = [
   {
     id: "bake-kujira",
     yokai: "化鯨",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十七",
     luck: "小吉",
     poem: "煙雨收江渚\n衡鷗落晏然\n守拙添勤力\n福來不覺遷",
@@ -488,7 +488,7 @@ export const FORTUNES = [
   {
     id: "shirime",
     yokai: "屁眼鬼",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十八",
     luck: "吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -506,7 +506,7 @@ export const FORTUNES = [
   {
     id: "kasha",
     yokai: "火車",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第二十九",
     luck: "小吉",
     poem: "松濤和月白\n石徑帶苔鮮\n但積微光火\n終能照深淵",
@@ -524,7 +524,7 @@ export const FORTUNES = [
   {
     id: "keukegen",
     yokai: "毛羽毛現",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十",
     luck: "吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -542,7 +542,7 @@ export const FORTUNES = [
   {
     id: "tsuchigumo",
     yokai: "土蜘蛛",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十一",
     luck: "小吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -560,7 +560,7 @@ export const FORTUNES = [
   {
     id: "raiju",
     yokai: "雷獸",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十二",
     luck: "小吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -578,7 +578,7 @@ export const FORTUNES = [
   {
     id: "nure-onna",
     yokai: "濡女",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十三",
     luck: "吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -596,7 +596,7 @@ export const FORTUNES = [
   {
     id: "shuten-doji",
     yokai: "酒吞童子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十四",
     luck: "凶",
     poem: "手機剩一趴\n充電線哪邊\n外賣剛到門\n偏偏忘帶錢",
@@ -614,7 +614,7 @@ export const FORTUNES = [
   {
     id: "datsue-ba",
     yokai: "奪衣婆",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十五",
     luck: "小凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -632,7 +632,7 @@ export const FORTUNES = [
   {
     id: "amabie",
     yokai: "海彥",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十六",
     luck: "中吉",
     poem: "松濤和月白\n石徑帶苔鮮\n但積微光火\n終能照深淵",
@@ -650,7 +650,7 @@ export const FORTUNES = [
   {
     id: "isogashi",
     yokai: "磯撫",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十七",
     luck: "大凶",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -668,7 +668,7 @@ export const FORTUNES = [
   {
     id: "harionago",
     yokai: "針女子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十八",
     luck: "凶",
     poem: "健身辦年卡\n三天就失聯\n教練發愛心\n你回已上仙",
@@ -686,7 +686,7 @@ export const FORTUNES = [
   {
     id: "ubagabi",
     yokai: "姥火",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第三十九",
     luck: "大吉",
     poem: "煙雨收江渚\n衡鷗落晏然\n守拙添勤力\n福來不覺遷",
@@ -704,7 +704,7 @@ export const FORTUNES = [
   {
     id: "hiderigami",
     yokai: "旱神",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十",
     luck: "中吉",
     poem: "煙雨收江渚\n衡鷗落晏然\n守拙添勤力\n福來不覺遷",
@@ -722,7 +722,7 @@ export const FORTUNES = [
   {
     id: "tesso",
     yokai: "鐵鼠",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十一",
     luck: "末吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -740,7 +740,7 @@ export const FORTUNES = [
   {
     id: "hone-onna",
     yokai: "骨女",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十二",
     luck: "中吉",
     poem: "蟬聲穿午熱\n荷氣滿池蓮\n道在平常處\n步穩自超然",
@@ -758,7 +758,7 @@ export const FORTUNES = [
   {
     id: "rokurokubi",
     yokai: "轆轤首",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十三",
     luck: "吉",
     poem: "輕舟橫古渡\n一葉過晴灣\n苦盡終知味\n前程自向寬",
@@ -776,7 +776,7 @@ export const FORTUNES = [
   {
     id: "waira",
     yokai: "蕨怪",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十四",
     luck: "大吉",
     poem: "輕舟橫古渡\n一葉過晴灣\n苦盡終知味\n前程自向寬",
@@ -794,7 +794,7 @@ export const FORTUNES = [
   {
     id: "ao-andon",
     yokai: "青行燈",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十五",
     luck: "中吉",
     poem: "松濤和月白\n石徑帶苔鮮\n但積微光火\n終能照深淵",
@@ -812,7 +812,7 @@ export const FORTUNES = [
   {
     id: "hakutaku",
     yokai: "白澤",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十六",
     luck: "吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -830,7 +830,7 @@ export const FORTUNES = [
   {
     id: "okiku",
     yokai: "阿菊",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十七",
     luck: "吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -848,7 +848,7 @@ export const FORTUNES = [
   {
     id: "tsukumogami",
     yokai: "付喪神",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十八",
     luck: "小凶",
     poem: "會議剛開始\n咖啡正打顫\n輪到你發言\nWiFi去度假",
@@ -866,7 +866,7 @@ export const FORTUNES = [
   {
     id: "satori",
     yokai: "覺",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第四十九",
     luck: "末吉",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -884,7 +884,7 @@ export const FORTUNES = [
   {
     id: "jinmenken",
     yokai: "人面犬",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十",
     luck: "大凶",
     poem: "想當斷捨離\n快遞日三件\n收納買一堆\n房間更擁擠",
@@ -902,7 +902,7 @@ export const FORTUNES = [
   {
     id: "yamabiko",
     yokai: "山彥",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十一",
     luck: "小吉",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -920,7 +920,7 @@ export const FORTUNES = [
   {
     id: "ame-onna",
     yokai: "雨女",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十二",
     luck: "小吉",
     poem: "松濤和月白\n石徑帶苔鮮\n但積微光火\n終能照深淵",
@@ -938,7 +938,7 @@ export const FORTUNES = [
   {
     id: "kudan",
     yokai: "件",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十三",
     luck: "小吉",
     poem: "春風入小院\n花影度簷前\n心靜隨雲遠\n願成在眼邊",
@@ -956,7 +956,7 @@ export const FORTUNES = [
   {
     id: "aka-manto",
     yokai: "紅斗篷",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十四",
     luck: "大吉",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -974,7 +974,7 @@ export const FORTUNES = [
   {
     id: "yamawaro",
     yokai: "山童",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十五",
     luck: "吉",
     poem: "輕舟橫古渡\n一葉過晴灣\n苦盡終知味\n前程自向寬",
@@ -992,7 +992,7 @@ export const FORTUNES = [
   {
     id: "sunakake-baba",
     yokai: "砂掛婆",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十六",
     luck: "末吉",
     poem: "手機剩一趴\n充電線哪邊\n外賣剛到門\n偏偏忘帶錢",
@@ -1010,7 +1010,7 @@ export const FORTUNES = [
   {
     id: "yuki-otoko",
     yokai: "雪男",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十七",
     luck: "吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -1028,7 +1028,7 @@ export const FORTUNES = [
   {
     id: "tenome",
     yokai: "手眼怪",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十八",
     luck: "中吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -1046,7 +1046,7 @@ export const FORTUNES = [
   {
     id: "itachi",
     yokai: "鼬",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第五十九",
     luck: "小凶",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -1064,7 +1064,7 @@ export const FORTUNES = [
   {
     id: "tsuchinoko",
     yokai: "槌之子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十",
     luck: "大凶",
     poem: "會議剛開始\n咖啡正打顫\n輪到你發言\nWiFi去度假",
@@ -1082,7 +1082,7 @@ export const FORTUNES = [
   {
     id: "yobuko",
     yokai: "呼子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十一",
     luck: "凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -1100,7 +1100,7 @@ export const FORTUNES = [
   {
     id: "yato-no-kami",
     yokai: "谷之神",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十二",
     luck: "中吉",
     poem: "告白編千字\n發送只一點\n她回哈哈哈\n到底幾個點",
@@ -1118,7 +1118,7 @@ export const FORTUNES = [
   {
     id: "umibozu",
     yokai: "海坊主",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十三",
     luck: "大吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -1136,7 +1136,7 @@ export const FORTUNES = [
   {
     id: "kodama",
     yokai: "木魂",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十四",
     luck: "大凶",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -1154,7 +1154,7 @@ export const FORTUNES = [
   {
     id: "yamata-no-orochi",
     yokai: "八岐大蛇",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十五",
     luck: "中吉",
     poem: "健身辦年卡\n三天就失聯\n教練發愛心\n你回已上仙",
@@ -1172,7 +1172,7 @@ export const FORTUNES = [
   {
     id: "jinmenju",
     yokai: "人面樹",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十六",
     luck: "小凶",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -1190,7 +1190,7 @@ export const FORTUNES = [
   {
     id: "kijimuna",
     yokai: "木之精",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十七",
     luck: "吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -1208,7 +1208,7 @@ export const FORTUNES = [
   {
     id: "sarugami",
     yokai: "猿神",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十八",
     luck: "吉",
     poem: "煙雨收江渚\n衡鷗落晏然\n守拙添勤力\n福來不覺遷",
@@ -1226,7 +1226,7 @@ export const FORTUNES = [
   {
     id: "abura-akago",
     yokai: "油赤子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第六十九",
     luck: "中吉",
     poem: "春風入小院\n花影度簷前\n心靜隨雲遠\n願成在眼邊",
@@ -1244,7 +1244,7 @@ export const FORTUNES = [
   {
     id: "amefuri-kozo",
     yokai: "雨降小僧",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十",
     luck: "末吉",
     poem: "煙雨收江渚\n衡鷗落晏然\n守拙添勤力\n福來不覺遷",
@@ -1262,7 +1262,7 @@ export const FORTUNES = [
   {
     id: "hikeshibaba",
     yokai: "熄火婆",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十一",
     luck: "凶",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -1280,7 +1280,7 @@ export const FORTUNES = [
   {
     id: "nyudo-bozu",
     yokai: "入道坊主",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十二",
     luck: "吉",
     poem: "輕舟橫古渡\n一葉過晴灣\n苦盡終知味\n前程自向寬",
@@ -1298,7 +1298,7 @@ export const FORTUNES = [
   {
     id: "sazae-oni",
     yokai: "栖螺鬼",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十三",
     luck: "吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -1316,7 +1316,7 @@ export const FORTUNES = [
   {
     id: "hoshikuma",
     yokai: "星熊",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十四",
     luck: "小吉",
     poem: "奶茶說減糖\n手滑點加甜\n卡路里本尊\n對你展笑顏",
@@ -1334,7 +1334,7 @@ export const FORTUNES = [
   {
     id: "tokisoba",
     yokai: "時蕎麥",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十五",
     luck: "末吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -1352,7 +1352,7 @@ export const FORTUNES = [
   {
     id: "shokera",
     yokai: "生剝",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十六",
     luck: "末吉",
     poem: "蟬聲穿午熱\n荷氣滿池蓮\n道在平常處\n步穩自超然",
@@ -1370,7 +1370,7 @@ export const FORTUNES = [
   {
     id: "yamawarawa",
     yokai: "山童子",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十七",
     luck: "凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -1388,7 +1388,7 @@ export const FORTUNES = [
   {
     id: "sankai",
     yokai: "三闔",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十八",
     luck: "小凶",
     poem: "會議剛開始\n咖啡正打顫\n輪到你發言\nWiFi去度假",
@@ -1406,7 +1406,7 @@ export const FORTUNES = [
   {
     id: "okuri-inu",
     yokai: "送行犬",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第七十九",
     luck: "吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -1424,7 +1424,7 @@ export const FORTUNES = [
   {
     id: "shiranui",
     yokai: "不知火",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十",
     luck: "凶",
     poem: "想當斷捨離\n快遞日三件\n收納買一堆\n房間更擁擠",
@@ -1442,7 +1442,7 @@ export const FORTUNES = [
   {
     id: "funa-yurei",
     yokai: "船幽靈",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十一",
     luck: "中吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -1460,7 +1460,7 @@ export const FORTUNES = [
   {
     id: "hashihime",
     yokai: "橋姬",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十二",
     luck: "小吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -1478,7 +1478,7 @@ export const FORTUNES = [
   {
     id: "tamamo-no-mae",
     yokai: "玉藻前",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十三",
     luck: "大吉",
     poem: "梅骨凌寒雪\n松心抱歲年\n但行無愧事\n所願必周全",
@@ -1496,7 +1496,7 @@ export const FORTUNES = [
   {
     id: "raiju-variant",
     yokai: "雷獸變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十四",
     luck: "中吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -1514,7 +1514,7 @@ export const FORTUNES = [
   {
     id: "baku",
     yokai: "貘",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十五",
     luck: "小凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -1532,7 +1532,7 @@ export const FORTUNES = [
   {
     id: "hannya",
     yokai: "般若",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十六",
     luck: "吉",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -1550,7 +1550,7 @@ export const FORTUNES = [
   {
     id: "keukegen-variant",
     yokai: "毛羽毛現變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十七",
     luck: "大吉",
     poem: "秋水涵孤照\n霜華上冷天\n積善如編佩\n吉慶自連綿",
@@ -1568,7 +1568,7 @@ export const FORTUNES = [
   {
     id: "nuppeppo",
     yokai: "肉塊怪",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十八",
     luck: "中吉",
     poem: "松濤和月白\n石徑帶苔鮮\n但積微光火\n終能照深淵",
@@ -1586,7 +1586,7 @@ export const FORTUNES = [
   {
     id: "konaki-jiji",
     yokai: "木哭爺",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第八十九",
     luck: "小凶",
     poem: "手機剩一趴\n充電線哪邊\n外賣剛到門\n偏偏忘帶錢",
@@ -1604,7 +1604,7 @@ export const FORTUNES = [
   {
     id: "wanyudo",
     yokai: "輪入道",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十",
     luck: "中吉",
     poem: "告白編千字\n發送只一點\n她回哈哈哈\n到底幾個點",
@@ -1622,7 +1622,7 @@ export const FORTUNES = [
   {
     id: "ookubi",
     yokai: "大首",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十一",
     luck: "凶",
     poem: "告白編千字\n發送只一點\n她回哈哈哈\n到底幾個點",
@@ -1640,7 +1640,7 @@ export const FORTUNES = [
   {
     id: "tsukumogami-variant",
     yokai: "付喪神變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十二",
     luck: "凶",
     poem: "告白編千字\n發送只一點\n她回哈哈哈\n到底幾個點",
@@ -1658,7 +1658,7 @@ export const FORTUNES = [
   {
     id: "nure-bozu",
     yokai: "濡坊主",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十三",
     luck: "中吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -1676,7 +1676,7 @@ export const FORTUNES = [
   {
     id: "tsukumogami-lantern",
     yokai: "付喪行燈",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十四",
     luck: "小凶",
     poem: "旅拍擺十姿\n鏡頭全閉眼\n再拍又更糊\n笑場到抽筋",
@@ -1694,7 +1694,7 @@ export const FORTUNES = [
   {
     id: "jinmenken-variant",
     yokai: "人面犬變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十五",
     luck: "凶",
     poem: "鬧鐘叫三遍\n被窩勝雲巔\n地鐵門將閉\n鞋帶忽又纏",
@@ -1712,7 +1712,7 @@ export const FORTUNES = [
   {
     id: "kamaitachi-variant",
     yokai: "鎌鼬變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十六",
     luck: "末吉",
     poem: "輕舟橫古渡\n一葉過晴灣\n苦盡終知味\n前程自向寬",
@@ -1730,7 +1730,7 @@ export const FORTUNES = [
   {
     id: "nekomata-variant",
     yokai: "貓又變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十七",
     luck: "大凶",
     poem: "健身辦年卡\n三天就失聯\n教練發愛心\n你回已上仙",
@@ -1748,7 +1748,7 @@ export const FORTUNES = [
   {
     id: "tengu-variant",
     yokai: "天狗變",
-    img: "/src/assets/images/river.png",
+    img: "tengu.png",
     number: "第九十八",
     luck: "凶",
     poem: "想當斷捨離\n快遞日三件\n收納買一堆\n房間更擁擠",
@@ -1766,7 +1766,7 @@ export const FORTUNES = [
   {
     id: "oni-variant",
     yokai: "鬼變",
-    img: "/src/assets/images/river.png",
+    img: "river.png",
     number: "第九十九",
     luck: "末吉",
     poem: "晨鐘驚夢裡\n露重染青天\n行止皆由我\n長歌過遠川",
@@ -1784,7 +1784,7 @@ export const FORTUNES = [
   {
     id: "kitsune-variant",
     yokai: "狐妖變",
-    img: "/src/assets/images/river.png",
+    img: "kitsune.png",
     number: "第一百",
     luck: "小凶",
     poem: "手機剩一趴\n充電線哪邊\n外賣剛到門\n偏偏忘帶錢",
@@ -1798,13 +1798,5 @@ export const FORTUNES = [
       money: "月底吃土，月初吃土豪朋友請客。",
       position: "向左有奶茶，向右有健身房；自己選。",
     },
-  },
-  {
-    id: "yukionna",
-    yokai: "雪女",
-    luck: "大吉",
-    text: "清心寡慾，萬事順意，宜定大事。",
-    effect: "snow",
-    img: "/src/assets/images/snow.png",
   },
 ];
