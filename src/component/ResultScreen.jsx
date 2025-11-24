@@ -29,6 +29,7 @@ function ResultScreen({ onReset, fortune }) {
 
           <p className="result-poem">{fortune.poem}</p>
           <div
+            className="result-details"
             style={{
               display: "flex",
               flexDirection: "row",

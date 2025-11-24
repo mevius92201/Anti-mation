@@ -103,7 +103,7 @@ export default function DrawControl({
           e.preventDefault();
         }}
       >
-        {disabled ? `啊啊` : `長按注入靈力`}
+        {disabled ? `抽籤中` : `抽根籤吧`}
       </button>
     </div>
   );

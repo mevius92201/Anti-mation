@@ -12,7 +12,7 @@
   --controls-gap: 1.2rem;
   --controls-padding: 1.2rem;
   --progress-h: 1.5rem;
-  --btn-h: 4.4rem;
+  --btn-h: 4rem;
   --result-max-w: 32rem;
   --result-max-h: 80svh;
   --result-font: "cursive";
@@ -53,6 +53,8 @@ body {
 
   overflow: hidden;
   touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 .app {
@@ -284,10 +286,10 @@ body {
 .result-screen-container {
   padding: 1.6rem;
   background: rgb(255, 255, 255);
-  width: min(29rem, var(--result-max-w));
+  width: min(60vw, var(--result-max-w));
   max-height: var(--result-max-h);
   margin-bottom: 2rem;
-  height: 71rem;
+  overflow: auto;
   color: black;
   box-shadow: 0 0.8rem 1.8rem rgba(0, 0, 0, 0.45);
 }
@@ -316,10 +318,17 @@ body {
   font-size: 2rem;
   writing-mode: vertical-rl;
   text-align: left;
-  padding-top: 4rem;
+  margin: 1rem;
   display: block;
   grid-column-start: 1;
   font-family: var(--result-font);
+}
+.result-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: flex-end;
+  padding-right: 4rem;
 }
 .result-text {
   height: 44ch;
@@ -389,8 +398,10 @@ body {
 
 .hold-btn {
   height: var(--btn-h);
-  padding: 0 1.8rem;
+  padding: 0 1rem;
   border-radius: 999rem;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  white-space: nowrap;
   border: 0.1rem solid rgba(255, 255, 255, 0.12);
   background: linear-gradient(180deg, #556fb7, #121b31);
   color: var(--ink);
@@ -419,7 +430,6 @@ body {
 @media (max-width: 600px) {
   :root {
     --progress-h: 1.4rem;
-    --btn-h: 5.2rem;
   }
   .controls {
     bottom: 1.6rem;
@@ -462,10 +472,16 @@ body {
     width: clamp(14rem, 68vw, 30rem);
   } */
   .result-poem {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    height: 13ch;
+    line-height: 4rem;
+  }
+  .result-details {
+    padding-right: 3rem;
   }
   .result-text {
     font-size: 1.2rem;
+    padding-top: 5.5rem;
   }
   .result-screen-container {
     max-height: 78svh;
